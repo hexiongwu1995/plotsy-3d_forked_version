@@ -2,8 +2,8 @@
 // Author: misskacie
 // License: LGPL-3.0-or-later
 #import "@preview/cetz:0.4.1": canvas, draw, matrix
-
-#let render-rear-axis(
+#let render-rear-axis( 
+  //renders the axes that are behind the surface, with a dotted style
   axis-low: (0,0,0),
   axis-high: (10,10,10),
   axis-step: (5,5,5),
